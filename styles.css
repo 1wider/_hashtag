@@ -1,0 +1,66 @@
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: 'EB Garamond', serif;
+}
+
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+  height: 100%
+}
+
+.container {
+  /* Background image */
+  background-color: #104253;
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  }
+
+  h1 {
+    color: #F8F1E0;
+    font-size: 60px;
+    font-family: 'Fauna One', serif;
+}
+
+h2 {
+  color: #F8F1E0;
+  font-size:  24px;
+  font-family: 'Fauna One', serif;
+}
+
+h2 {
+  color: #F8F1E0;
+  font-size:  18px;
+  font-family: 'Fauna One', serif;
+}
+
+
+  p{
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  color: #f0f7f7;
+}
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the <hr> element */
+hr {
+  color: #e66453;
+  margin: auto;
+  width: 40%;
+}
